@@ -55,7 +55,7 @@ nums is sorted in non-decreasing order.
 ```
 
 ### Answer
-
+```
 var removeDuplicates = function(nums) {
 let index = 1
 for (let i = 0; i < nums.length -1; i++){
@@ -64,7 +64,7 @@ for (let i = 0; i < nums.length -1; i++){
       } 
      }
  };
-
+```
 
 ## 2799. Count Complete Subarrays in an Array
 Medium
