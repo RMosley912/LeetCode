@@ -54,6 +54,17 @@ Constraints:
 nums is sorted in non-decreasing order.
 ```
 
+### Answer
+
+var removeDuplicates = function(nums) {
+let index = 1
+for (let i = 0; i < nums.length -1; i++){
+    if nums [i] != nums [i +1] {
+    index +++
+      } 
+     }
+ };
+
 
 ## 2799. Count Complete Subarrays in an Array
 Medium
@@ -126,6 +137,8 @@ Input: arr = [-2,-1,0,1,2], fn = function plusOne(n) { return n + 1 }
 Output: [-2,0,1,2]
 Explanation:
 Falsey values such as 0 should be filtered out
+
+### Answer
 
 ## 2677. Chunk Array
 Easy
