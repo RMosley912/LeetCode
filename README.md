@@ -54,7 +54,7 @@ Constraints:
 nums is sorted in non-decreasing order.
 ```
 
-### Answer
+### Solution
 
 ```
 var removeDuplicates = function(nums) {
@@ -141,8 +141,21 @@ Output: [-2,0,1,2]
 Explanation:
 Falsey values such as 0 should be filtered out
 
-### Answer
+### Solution
 
+```
+
+var filter = function(arr, fn) {
+    var filteredArr = [];
+    for (var i = 0; i < arr.length; i++) {
+        if (fn(arr[i], i)) {
+            filteredArr.push(arr[i]);
+        }
+    }
+    return filteredArr;
+};
+
+```
 ## 2677. Chunk Array
 Easy
 231
